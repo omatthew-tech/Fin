@@ -50,7 +50,7 @@ def handle_data():
     flash('Submission Successful!')
 
     account_sid = 'AC3845e18a119c32dcff8bc6af2dc14079' 
-    auth_token = '0c136d68ef92fd20bdaf378cd692688b' 
+    auth_token = '155ca39d35909ded613d11646e3645e3' 
     client = Client(account_sid, auth_token) 
     
     message = client.messages.create(  
